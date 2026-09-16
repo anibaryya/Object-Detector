@@ -1,0 +1,86 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.cache/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.tox/
+.nox/
+dist/
+build/
+site/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+*.egg
+.coverage
+.coverage.*
+htmlcov/
+
+# ---------------- Virtual envs ----------------
+.venv/
+venv/
+ENV/
+env/
+.conda/
+conda-env/
+
+# ---------------- Notebooks ----------------
+.ipynb_checkpoints/
+
+# ---------------- Editors/IDE ----------------
+# If you want to commit specific VS Code files, un-comment the exceptions below.
+.vscode/
+#.vscode/settings.json
+#.vscode/launch.json
+#.vscode/tasks.json
+.idea/
+*.code-workspace
+.spyproject/
+
+# ---------------- OS junk ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------- Secrets / local config ----------------
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+*.ini.local
+*.toml.local
+*.yaml.local
+
+# ---------------- Ultralytics / ML artifacts ----------------
+# Training outputs and caches
+runs/
+wandb/
+*.cache
+*.labels.cache
+
+# Large model files (use Git LFS if you must track them)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+*.safetensors
+*.ckpt
+
+# Datasets (remove these lines if you want to version data)
+data/
+datasets/
+outputs/
+checkpoints/
+weights/
+tmp/
+temp/
+
+# ---------------- Logs ----------------
+*.log
+logs/
